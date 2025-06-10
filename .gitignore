@@ -1,0 +1,17 @@
+*.json
+Day1/Day1/bin/Debug/net9.0/Day1.exe
+Day1/Day1/bin/Debug/net9.0/Day1.pdb
+Day1/Day1/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+Day1/Day1/obj/Debug/net9.0/apphost.exe
+Day1/Day1/obj/Debug/net9.0/Day1.AssemblyInfo.cs
+Day1/Day1/obj/Debug/net9.0/Day1.AssemblyInfoInputs.cache
+Day1/Day1/obj/Debug/net9.0/Day1.assets.cache
+Day1/Day1/obj/Debug/net9.0/Day1.csproj.CoreCompileInputs.cache
+Day1/Day1/obj/Debug/net9.0/Day1.csproj.FileListAbsolute.txt
+Day1/Day1/obj/Debug/net9.0/Day1.dll
+Day1/Day1/obj/Debug/net9.0/Day1.GeneratedMSBuildEditorConfig.editorconfig
+Day1/Day1/obj/Debug/net9.0/Day1.genruntimeconfig.cache
+Day1/Day1/obj/Debug/net9.0/Day1.GlobalUsings.g.cs
+Day1/Day1/obj/Debug/net9.0/Day1.pdb
+Day1/Day1/obj/Debug/net9.0/ref/Day1.dll
+Day1/Day1/obj/Debug/net9.0/refint/Day1.dll
