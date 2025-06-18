@@ -93,7 +93,7 @@ class Program
 
         for (int i = 0; i < 50; i++)
         {
-            list3.Add(random.Next((int) DateTime.Now.Ticks));
+            //list3.Add(random.Next((int) DateTime.Now.Ticks));
         }
         
         SelectionSort(list3);
@@ -101,6 +101,75 @@ class Program
         foreach (var VARIABLE in list3)
         {
             Console.WriteLine(VARIABLE);
+        }
+
+
+        //-------------------------
+        Hashtable newHashTable = new Hashtable();
+        newHashTable.Add("Key1", "Value1");
+        newHashTable.Add("Key2", "Value2");
+        newHashTable.Add("Key3", "Value3");
+        newHashTable.Add("Key4", "Value4");
+        newHashTable.Add("Key5", "Value5");
+
+        Console.WriteLine(hashtable.Count);
+
+
+        //-------------------------
+        SortedList sortedList = new SortedList();
+        sortedList.Add("Key1", "Value1");
+        sortedList.Add("Key2", "Value2");
+        sortedList.Add("Key3", "Value3");
+        sortedList.Add("Key4", "Value4");
+        sortedList.Add("Key5", "Value5");
+        sortedList.Add("Key6", "Value6");
+
+        Console.WriteLine(sortedList);
+        Console.WriteLine("Count" + sortedList.Count);
+        Console.WriteLine("Capacity: " + sortedList.Capacity);
+        Console.WriteLine("Keys and Values: ");
+
+        //--------------------
+        List<Student> newList = new List<Student>
+        {
+            new Student(1, "Scove"),
+            new Student(2, "Scove"),
+            new Student(3, "Scove"),
+            new Student(4, "Scove"),
+            new Student(5, "Scove")
+        };
+
+        for (int i = 0; i < newList.Count; i++)
+        {
+            Console.WriteLine(newList[i]);
+        }
+
+        Dictionary<string, int> newDictionary = new Dictionary<string, int>();
+        newDictionary.Add("Scove", 1);
+        newDictionary.Add("Scovy", 2);
+        
+        if (newDictionary.ContainsKey("Scove"))
+        {
+            Console.WriteLine("Scove is " + newDictionary["Scove"] + " year(s) in IT dev");
+        }
+
+        newDictionary["Scovy"] = 26;
+        newDictionary.Remove("Scove");
+
+        foreach (var idk in newDictionary)
+        {
+            Console.WriteLine($"{ idk.Key}: {idk.Value}");
+        }
+
+        Queue<string> tasks = new Queue<string>();
+        tasks.Enqueue("Download file");
+        tasks.Enqueue("Scan file");
+        Console.WriteLine("Next task: " + tasks.Peek());
+        Console.WriteLine("Next task: " + tasks.Dequeue());
+
+        foreach (var task in tasks )
+        {
+            Console.WriteLine(task);
         }
     }
 
